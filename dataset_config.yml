@@ -1,0 +1,19 @@
+#Define your own path to data folders
+input_folders: ['../../test']
+output_folder: './result/'
+
+#Define your own classes
+classes:
+    'explorer.exe': 1
+    'WINWORD.EXE': 2
+    'POWERPNT.EXE': 3
+    'notepad.exe': 4
+    'TextInputHost.exe': 5
+    'Telegram.exe': 6
+
+
+train_percentage: 75
+val_percentage: 15
+test_percentage: 15
+
+resize: 256 # If set to 0 or negative, resize will not occur
